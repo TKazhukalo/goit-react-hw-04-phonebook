@@ -1,9 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import PropTypes from 'prop-types';
 import { SectionContainer, Title } from "./Section.styled";
-export class Section extends Component {
-    render() {
-        const { title, children } = this.props;
+import { useState } from "react";
+ export const Section=({title,children})=> {
         return (
             <SectionContainer>
                 <Title>{title}</Title>
@@ -11,8 +10,25 @@ export class Section extends Component {
             </SectionContainer>
         );
     }
-}
-
 Section.propTypes = {
     title: PropTypes.string.isRequired,
 };
+
+// Section.propTypes = {
+//     title: PropTypes.string.isRequired,
+// };
+// export class Section extends Component {
+//     render() {
+//         const { title, children } = this.props;
+//         return (
+//             <SectionContainer>
+//                 <Title>{title}</Title>
+//                 {children}
+//             </SectionContainer>
+//         );
+//     }
+// }
+
+// Section.propTypes = {
+//     title: PropTypes.string.isRequired,
+// };
