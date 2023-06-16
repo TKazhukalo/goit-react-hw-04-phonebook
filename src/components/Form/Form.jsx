@@ -1,5 +1,5 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from 'react';
+
 import { nanoid } from "nanoid";
 import { FormContainer, Input, Label } from "./Form.styled";
 import { Button } from "components/ContactsList/ContactsList.styled";

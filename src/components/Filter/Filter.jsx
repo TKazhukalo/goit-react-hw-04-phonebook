@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 import { nanoid } from "nanoid";
 import { FormContainer, Input, Label } from "components/Form/Form.styled";
 import PropTypes from 'prop-types';
-import { useState } from "react";
+
 
 export const Filter = ({ value, onChange }) => {
    

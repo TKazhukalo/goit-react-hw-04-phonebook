@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 import PropTypes from 'prop-types';
 import { SectionContainer, Title } from "./Section.styled";
-import { useState } from "react";
+
  export const Section=({title,children})=> {
         return (
             <SectionContainer>

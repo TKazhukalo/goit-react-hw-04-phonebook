@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import PropTypes from 'prop-types';
 import { Button, ContactItem, ListItem } from "./ContactsList.styled";
 export const ContactsList=({contacts, onDelete })=>{
