@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Component } from "react";
+//import { Component } from "react";
 
 import { nanoid } from "nanoid";
 import { Container } from "./App.styled";
